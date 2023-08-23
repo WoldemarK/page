@@ -1,0 +1,11 @@
+databaseChangeLog:
+
+  - changeSet:
+      id: v1.0000
+      logicalFilePath: 00000-create-table.sql
+      comment: initial migration
+      author: v.kovtunov
+      changes:
+        - sqlFile:
+            path: 00000-create-table.sql
+            relativeToChangelogFile: true
